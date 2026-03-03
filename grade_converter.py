@@ -1,8 +1,8 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Onyinye Ofornagoro
+# DATE: 03/02/2026
+# BRIEF DESCRIPTION: Converting numerical grades to letter ones  
 
 
 
@@ -15,22 +15,22 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-print('===== Grade Converter =====')
+print("===== Grade Converter =====")
 
-percent = int(input('Enter a numerical grade (1-100): '))
+grade = int(input('Enter a numerical grade (1-100): '))
 
-if percent > 100:
-    print('A+')
-elif percent >= 90:
-    print('A')
-elif percent >= 80:
-    print('B')
-elif percent >= 70:
-    print('C')
-elif percent >= 65:
-    print('D')
-else:
-    print('F')
+if grade >= 101:
+      print('A+')
+elif grade >= 90:
+      print('A')
+elif grade >= 80:
+      print('B')
+elif grade >= 70:
+      print('C')
+elif grade >= 65:
+      print('D')
+elif grade < 65:
+      print('F')
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -85,7 +85,7 @@ D
 1. What is something you would tell a future student to be careful about when
    doing this lab?
 
-
+I would tell a future student to be careful with the comparative operators.
 
 
 
